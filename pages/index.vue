@@ -1,29 +1,16 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
+    <div class="divider">
+
       <h1 class="title">
-        designsystems_dk
+        designsystems
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+
+
     </div>
+     <footer class="footer">
+      @copyright - designsystems.dk
+    </footer>
   </div>
 </template>
 
@@ -31,42 +18,27 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss">
+
 .container {
+  background: #f9f9f9;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+  h1 {
+    font-size: 10vw;
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  }
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.footer {
+  position: absolute;
+  bottom: 5px;
+  font-size: 12px;
+  color: #a4a4a4;
 }
-
 .links {
   padding-top: 15px;
 }

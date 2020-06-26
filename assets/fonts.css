@@ -1,0 +1,27 @@
+/* normal */
+@font-face {
+  font-family: "ds";
+  src: url("/fonts/ds-normal.woff2") format("woff2");
+  font-weight: normal;
+}
+
+/* bold */
+@font-face {
+  font-family: "ds";
+  src: url("/fonts/ds-bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+/* black */
+@font-face {
+  font-family: "ds";
+  src: url("/fonts/ds-black.woff2") format("woff2");
+  font-weight: bold;
+}
+
+/* extended */
+@font-face {
+  font-family: "ds";
+  src: url("/fonts/ds-bold-extended.woff2") format("woff2");
+  font-weight: bold;
+}
